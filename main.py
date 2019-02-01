@@ -65,7 +65,7 @@ def _format_addr(s):
     return formataddr((Header(name, 'utf-8').encode(), addr))
 
 from_addr = 'licassisant@outlook.com'
-password = '2.71828li'
+password = '2.71828**'
 to_addr = 'liceagle@outlook.com'
 
 msg = MIMEText(str(soup), 'html', 'utf-8')
